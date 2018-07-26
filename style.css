@@ -115,7 +115,7 @@ main>.tagline {
 /* Theme */
 
 main {
-    background: #FAFAFA;
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
     color: #0277BD;
 }
 
