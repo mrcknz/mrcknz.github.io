@@ -8,7 +8,7 @@
 
     <title>Marco Kunz</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300|Kaushan+Script|Yanone+Kaffeesatz|Barlow+Semi+Condensed" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
@@ -29,23 +29,86 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- getmdl.io include -->
+    <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
+    <script src="/node_modules/material-design-lite/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-    <main>
-        <h1 class="intro">Hi, I'm Marco.</h1>
-        <h2 class="tagline">Manager of Product | Developer of Web | Master of Yacht</h2>
-        <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-        <div class="icons-social">
-            <a target="_blank" href="https://www.linkedin.com/in/marcokunz/"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="https://github.com/mrcknz"><i class="fab fa-github"></i></a>
-            <!-- <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a> -->
-            <!-- <a target="_blank" href="https://stackoverflow.com/"><i class="fab fa-stack-overflow"></i></a> -->
-            <!-- <a target="_blank" href="https://medium.com/"><i class="fab fa-medium"></i></a> -->
-            <a target="_blank" href="https://www.freecodecamp.org/mrcknz"><i class="fab fa-free-code-camp"></i></a>
-            <!-- <a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a> -->
-        </div>
-    </main>
+    <div class="mdl-layout mdl-js-layout mdl-layout--no-desktop-drawer-button">
+        <!--<header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout-icon"></div>
+            <div class="mdl-layout__header-row">
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <a href="#" class="mdl-navigation__link">About</a>
+                    <a href="#" class="mdl-navigation__link">Resume</a>
+                    <a href="#" class="mdl-navigation__link">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Title</span>
+                <nav class="mdl-navigation">
+                    <a href="#" class="mdl-navigation__link">About</a>
+                    <a href="#" class="mdl-navigation__link">Resume</a>
+                    <a href="#" class="mdl-navigation__link">Contact</a>
+                </nav>
+        </div>-->
+        <main class="mdl-layout__content">
+            <section id="intro">
+                <p>Hi, I'm</p><h1 class="intro">Marco</h1>
+                <h2 class="tagline">Product Manager turned Web Developer</h2>
+                <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+                <div class="icons-social">
+                    <a target="_blank" href="https://www.linkedin.com/in/marcokunz/"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/mrcknz"><i class="fab fa-github"></i></a>
+                    <!-- <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a> -->
+                    <!-- <a target="_blank" href="https://stackoverflow.com/"><i class="fab fa-stack-overflow"></i></a> -->
+                    <!-- <a target="_blank" href="https://medium.com/"><i class="fab fa-medium"></i></a> -->
+                    <a target="_blank" href="https://www.freecodecamp.org/mrcknz"><i class="fab fa-free-code-camp"></i></a>
+                    <!-- <a href="https://dev.to/mrcknz">
+                        <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Marco Kunz's DEV Profile" height="30" width="30" />
+                    </a> -->
+                    <!-- <a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a> -->
+                </div>
+                <!--<a href="#about"><i class="material-icons scroll">arrow_downward</i></a>-->
+            </section>
+            <!--<section id="about">
+                <h1 class="intro">Hi, I'm Marco.</h1>
+                <h2 class="tagline">Manager of Product | Developer of Web | Master of Yacht</h2>
+                <div class="icons-social">
+                    <a target="_blank" href="https://www.linkedin.com/in/marcokunz/"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/mrcknz"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://www.freecodecamp.org/mrcknz"><i class="fab fa-free-code-camp"></i></a>
+                    <a href="https://dev.to/mrcknz">
+                        <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Marco Kunz's DEV Profile" height="30" width="30" />
+                    </a>
+                    <a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a>
+                </div>
+            </section>
+            <section id="resume">
+                <h1 class="intro">Hi, I'm Marco.</h1>
+                <h2 class="tagline">Manager of Product | Developer of Web | Master of Yacht</h2>
+                <div class="icons-social">
+                    <a target="_blank" href="https://www.linkedin.com/in/marcokunz/"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/mrcknz"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://www.freecodecamp.org/mrcknz"><i class="fab fa-free-code-camp"></i></a>
+                </div>
+            </section>
+            <section id="work">
+                <h1 class="intro">Hi, I'm Marco.</h1>
+                <h2 class="tagline">Manager of Product | Developer of Web | Master of Yacht</h2>
+                <div class="icons-social">
+                    <a target="_blank" href="https://www.linkedin.com/in/marcokunz/"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/mrcknz"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://www.freecodecamp.org/mrcknz"><i class="fab fa-free-code-camp"></i></a>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 
 </html>
