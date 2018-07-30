@@ -1,6 +1,4 @@
-/* Minimal CSS Reset */
-
-@keyframes bounce {
+s@keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
@@ -114,6 +112,11 @@ section {
     padding: 3rem 1rem;
     height: 100vh;
     position: relative;
+}
+
+section .content {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 *,
